@@ -1469,10 +1469,10 @@ world-settings:
         force: false
         head-chance: 0.25
       minecart:
-        max-speed: 0.8
+        max-speed: 0.4
         place-anywhere: false
         powered-rail:
-          boost-modifier: 0.09
+          boost-modifier: 0.06
         controllable:
           enabled: false
           step-height: 1.0
