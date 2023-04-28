@@ -47,7 +47,7 @@ settings:
   incoming-packet-spam-threshold: 300
   use-alternative-luck-formula: false
   velocity-support:
-    enabled: false
+    enabled: true
     online-mode: false
     secret: ''
   console-has-all-permissions: false
@@ -74,7 +74,7 @@ settings:
     recipe-spam-increment: 1
     recipe-spam-limit: 20
   book-size:
-    page-max: 2560
+    page-max: 100
     total-multiplier: 0.98
   loggers:
     deobfuscate-stacktraces: true
@@ -268,8 +268,8 @@ world-settings:
     anticheat:
       obfuscation:
         items:
-          hide-itemmeta: false
-          hide-durability: false
+          hide-itemmeta: true
+          hide-durability: true
     monster-spawn-max-light-level: -1
     allow-non-player-entities-on-scoreboards: false
     portal-search-radius: 128
